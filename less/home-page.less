@@ -4,14 +4,20 @@
 
   .intro {
 
+    img {
+      // parametric mixin
+      .border-radius();
+      margin-top: 15px;
+    }
+
     h2 {
       padding: 15px;
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -58,13 +64,14 @@
       }
 
       .btn {
+        .btn-build();
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -72,4 +79,6 @@
       }
     }
   }
-}// home
+}
+
+// home
