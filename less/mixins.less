@@ -1,1 +1,22 @@
 // Mixins Here
+
+.header-font-color {
+    color: #23293b;
+}
+
+.border-radius {
+    border-radius: 5px;
+}
+
+//Parametric Mixins
+
+//sign up btn
+.btn-build (@color, @width) {
+    color: @color;
+    background-color: #23293b;
+    padding: 10px 5px;
+    .border-radius();
+    width: @width;
+    text-align: center;
+
+}
