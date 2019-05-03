@@ -1,3 +1,9 @@
+.header-font-color {
+  color: #23293b;
+}
+.border-radius {
+  border-radius: 5px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -178,7 +184,8 @@ nav .navbar {
 }
 nav .navbar a {
   text-decoration: none;
-  color: black;
+  color: #23293b;
+  font-weight: 500;
   font-size: 1.75rem;
   margin: 0 20px;
 }
@@ -193,8 +200,6 @@ footer {
   align-items: center;
 }
 .home .intro img {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   margin-top: 15px;
 }
@@ -242,13 +247,17 @@ footer {
 }
 .home .walk .walk-text .btn {
   color: white;
-  background-color: black;
+  background-color: #23293b;
   padding: 10px 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
-  width: 25%;
+  width: 30%;
   text-align: center;
+  font-size: 1.75rem;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #23293b;
+  border: 1px solid #23293b;
 }
 .home .walk .walk-img {
   width: 46%;
